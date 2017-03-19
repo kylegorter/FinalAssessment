@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import FirebaseAuth
+import FirebaseDatabase
 
 
 class LogInController: UIViewController {
@@ -26,16 +27,6 @@ class LogInController: UIViewController {
         }
     }
     
-    func showAlert(withTitle title: String?, withMessage message: String?) {
-        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        
-        let action = UIAlertAction(title: "Great Scott!", style: .cancel, handler: nil)
-        
-        alert.addAction(action)
-        
-        present(alert, animated: true, completion: nil)
-    }
-    
     func logIn(button: UIButton) {
         let email = emailTextField.text
         let password = passwordTextField.text
@@ -46,6 +37,18 @@ class LogInController: UIViewController {
                 return}
             
             })
+            
+        
+    }
+    
+    func loadHomeView() {
+        
+        
+            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+            let controller = storyboard.instantiateViewController(withIdentifier: "TabBarController")
+                as? UITabBarController
+            //let homePage = HomeViewController()
+            present(controller!, animated: true, completion: nil)
             
         
     }

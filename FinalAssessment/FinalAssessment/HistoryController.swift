@@ -1,35 +1,13 @@
+////
+////  HistoryController.swift
+////  FinalAssessment
+////
+////  Created by Kyle Gorter on 3/17/17.
+////  Copyright © 2017 Kyle Gorter. All rights reserved.
+////
 //
-//  HistoryController.swift
-//  FinalAssessment
+//import UIKit
+//import Firebase
+//import FirebaseDatabase
 //
-//  Created by Kyle Gorter on 3/17/17.
-//  Copyright © 2017 Kyle Gorter. All rights reserved.
-//
-
-import UIKit
-
-class HistoryController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}
+//class HistoryController: UIViewController {

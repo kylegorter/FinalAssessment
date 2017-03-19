@@ -10,19 +10,26 @@ import UIKit
 import Firebase
 import FirebaseAuth
 import IQKeyboardManagerSwift
-
+import FBSDKShareKit
+import FBSDKCoreKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    override init() {
+        FIRApp.configure()
+        FIRDatabase.database().persistenceEnabled = true
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        FIRApp.configure()
-        IQKeyboardManager.sharedManager().enable = true
         
+        
+        
+        
+        IQKeyboardManager.sharedManager().enable = true
         return true
     }
 
@@ -50,4 +57,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+
+
+
+extension UIViewController {
+    func showAlert(withTitle title: String?, withMessage message: String?) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        
+        let action = UIAlertAction(title: "Great Scott!", style: .cancel, handler: nil)
+        
+        alert.addAction(action)
+        
+        present(alert, animated: true, completion: nil)
+    }
+
+    
+}
+
+
+
+
+
+
 

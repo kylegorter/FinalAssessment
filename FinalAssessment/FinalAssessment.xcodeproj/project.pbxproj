@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9248D3033B05A9D775814DDA /* Pods_FinalAssessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3C6DB640846A6808B9B994 /* Pods_FinalAssessment.framework */; };
+		A119FBB71E7CE81200E72808 /* ChallengeUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A119FBB61E7CE81200E72808 /* ChallengeUserTableViewCell.swift */; };
+		A119FBB91E7CE8D100E72808 /* Supporting Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A119FBB81E7CE8D100E72808 /* Supporting Functions.swift */; };
+		A119FBBE1E7D913B00E72808 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A119FBBA1E7D913B00E72808 /* Bolts.framework */; };
+		A119FBBF1E7D913B00E72808 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A119FBBB1E7D913B00E72808 /* FBSDKCoreKit.framework */; };
+		A119FBC01E7D913B00E72808 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A119FBBC1E7D913B00E72808 /* FBSDKLoginKit.framework */; };
+		A119FBC11E7D913B00E72808 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A119FBBD1E7D913B00E72808 /* FBSDKShareKit.framework */; };
 		A11AFB741E7BC81200931A5A /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11AFB731E7BC81200931A5A /* SignUpController.swift */; };
 		A134E78D1E7BB256002F1D57 /* LogInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134E78C1E7BB256002F1D57 /* LogInController.swift */; };
 		A134E78F1E7BB2A8002F1D57 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134E78E1E7BB2A8002F1D57 /* ProfileController.swift */; };
@@ -20,11 +26,22 @@
 		A158426A1E7BA29000E82C41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15842691E7BA29000E82C41 /* Assets.xcassets */; };
 		A158426D1E7BA29000E82C41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A158426B1E7BA29000E82C41 /* LaunchScreen.storyboard */; };
 		A15842751E7BA42400E82C41 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A15842741E7BA42400E82C41 /* GoogleService-Info.plist */; };
+		A19392271E7E48B600AA171B /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19392261E7E48B600AA171B /* HistoryTableViewCell.swift */; };
+		A193922A1E7E58DB00AA171B /* SearchChallengersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19392291E7E58DB00AA171B /* SearchChallengersController.swift */; };
+		A193922C1E7E596400AA171B /* SearchChallengersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A193922B1E7E596400AA171B /* SearchChallengersTableViewCell.swift */; };
+		A1C6699A1E7C176E00397721 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C669991E7C176E00397721 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17964906D9EFC59E3DA3F638 /* Pods-FinalAssessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalAssessment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalAssessment/Pods-FinalAssessment.debug.xcconfig"; sourceTree = "<group>"; };
+		A119FBB61E7CE81200E72808 /* ChallengeUserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeUserTableViewCell.swift; sourceTree = "<group>"; };
+		A119FBB81E7CE8D100E72808 /* Supporting Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Supporting Functions.swift"; sourceTree = "<group>"; };
+		A119FBBA1E7D913B00E72808 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../Documents/FacebookSDKs-iOS-4.20.2/Bolts.framework"; sourceTree = "<group>"; };
+		A119FBBB1E7D913B00E72808 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../Documents/FacebookSDKs-iOS-4.20.2/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		A119FBBC1E7D913B00E72808 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../Documents/FacebookSDKs-iOS-4.20.2/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		A119FBBD1E7D913B00E72808 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../../Documents/FacebookSDKs-iOS-4.20.2/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		A11AFB731E7BC81200931A5A /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		A11AFB751E7BDCD100931A5A /* FinalAssessment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinalAssessment.entitlements; sourceTree = "<group>"; };
 		A134E78C1E7BB256002F1D57 /* LogInController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInController.swift; sourceTree = "<group>"; };
 		A134E78E1E7BB2A8002F1D57 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		A134E7901E7BB2EE002F1D57 /* InviteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteController.swift; sourceTree = "<group>"; };
@@ -38,6 +55,10 @@
 		A158426C1E7BA29000E82C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A158426E1E7BA29000E82C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A15842741E7BA42400E82C41 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A19392261E7E48B600AA171B /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		A19392291E7E58DB00AA171B /* SearchChallengersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChallengersController.swift; sourceTree = "<group>"; };
+		A193922B1E7E596400AA171B /* SearchChallengersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchChallengersTableViewCell.swift; sourceTree = "<group>"; };
+		A1C669991E7C176E00397721 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BA3C6DB640846A6808B9B994 /* Pods_FinalAssessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalAssessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51196B58835CB4F773F75E3 /* Pods-FinalAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalAssessment.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalAssessment/Pods-FinalAssessment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,6 +69,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9248D3033B05A9D775814DDA /* Pods_FinalAssessment.framework in Frameworks */,
+				A119FBBF1E7D913B00E72808 /* FBSDKCoreKit.framework in Frameworks */,
+				A119FBC11E7D913B00E72808 /* FBSDKShareKit.framework in Frameworks */,
+				A119FBC01E7D913B00E72808 /* FBSDKLoginKit.framework in Frameworks */,
+				A119FBBE1E7D913B00E72808 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +82,10 @@
 		0B0D72C39A0E1788BA18B3C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A119FBBA1E7D913B00E72808 /* Bolts.framework */,
+				A119FBBB1E7D913B00E72808 /* FBSDKCoreKit.framework */,
+				A119FBBC1E7D913B00E72808 /* FBSDKLoginKit.framework */,
+				A119FBBD1E7D913B00E72808 /* FBSDKShareKit.framework */,
 				BA3C6DB640846A6808B9B994 /* Pods_FinalAssessment.framework */,
 			);
 			name = Frameworks;
@@ -92,9 +121,11 @@
 		A15842611E7BA29000E82C41 /* FinalAssessment */ = {
 			isa = PBXGroup;
 			children = (
+				A11AFB751E7BDCD100931A5A /* FinalAssessment.entitlements */,
 				A158427B1E7BA61A00E82C41 /* Supporting Files */,
 				A158427A1E7BA60C00E82C41 /* History */,
 				A15842791E7BA60000E82C41 /* Challenge friends */,
+				A19392281E7E587C00AA171B /* Search Challengers */,
 				A15842781E7BA5F700E82C41 /* Invite friends */,
 				A15842771E7BA5E600E82C41 /* Profile */,
 				A15842761E7BA5D700E82C41 /* Authentication */,
@@ -133,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				A134E7921E7BB306002F1D57 /* ChallengeController.swift */,
+				A119FBB61E7CE81200E72808 /* ChallengeUserTableViewCell.swift */,
 			);
 			name = "Challenge friends";
 			sourceTree = "<group>";
@@ -141,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				A134E7941E7BB317002F1D57 /* HistoryController.swift */,
+				A19392261E7E48B600AA171B /* HistoryTableViewCell.swift */,
 			);
 			name = History;
 			sourceTree = "<group>";
@@ -153,8 +186,19 @@
 				A15842691E7BA29000E82C41 /* Assets.xcassets */,
 				A158426E1E7BA29000E82C41 /* Info.plist */,
 				A15842741E7BA42400E82C41 /* GoogleService-Info.plist */,
+				A1C669991E7C176E00397721 /* User.swift */,
+				A119FBB81E7CE8D100E72808 /* Supporting Functions.swift */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A19392281E7E587C00AA171B /* Search Challengers */ = {
+			isa = PBXGroup;
+			children = (
+				A19392291E7E58DB00AA171B /* SearchChallengersController.swift */,
+				A193922B1E7E596400AA171B /* SearchChallengersTableViewCell.swift */,
+			);
+			name = "Search Challengers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +237,11 @@
 					A158425E1E7BA29000E82C41 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -285,10 +334,16 @@
 				A134E7931E7BB306002F1D57 /* ChallengeController.swift in Sources */,
 				A15842631E7BA29000E82C41 /* AppDelegate.swift in Sources */,
 				A11AFB741E7BC81200931A5A /* SignUpController.swift in Sources */,
+				A119FBB71E7CE81200E72808 /* ChallengeUserTableViewCell.swift in Sources */,
+				A119FBB91E7CE8D100E72808 /* Supporting Functions.swift in Sources */,
+				A193922C1E7E596400AA171B /* SearchChallengersTableViewCell.swift in Sources */,
+				A19392271E7E48B600AA171B /* HistoryTableViewCell.swift in Sources */,
 				A134E7951E7BB317002F1D57 /* HistoryController.swift in Sources */,
 				A134E78D1E7BB256002F1D57 /* LogInController.swift in Sources */,
 				A134E78F1E7BB2A8002F1D57 /* ProfileController.swift in Sources */,
+				A1C6699A1E7C176E00397721 /* User.swift in Sources */,
 				A134E7911E7BB2EE002F1D57 /* InviteController.swift in Sources */,
+				A193922A1E7E58DB00AA171B /* SearchChallengersController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +466,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/IQKeyboardManagerSwift\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"/Users/kylegorter/Documents/FacebookSDKs-iOS-4.20.2\"",
+				);
 				INFOPLIST_FILE = FinalAssessment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.FinalAssessment;
@@ -425,6 +492,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/IQKeyboardManagerSwift\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"/Users/kylegorter/Documents/FacebookSDKs-iOS-4.20.2\"",
+				);
 				INFOPLIST_FILE = FinalAssessment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.FinalAssessment;
